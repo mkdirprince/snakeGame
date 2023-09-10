@@ -1,5 +1,5 @@
 
-const food = {
+let food = {
   x: 4, y: 16
 }
 

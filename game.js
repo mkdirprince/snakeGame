@@ -15,6 +15,7 @@ setInterval(main, 1000/SNAKE_SPEED)
 const update = () => {
   console.log("updating")
   updateSnake()
+  updateFood()
 }
 
 // draw the snake
