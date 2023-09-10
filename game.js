@@ -1,6 +1,3 @@
-// How many times in a sec should the game update
-const SNAKE_SPEED = 5
-
 // Get the game board
 const gameBoard = document.getElementById("game-board")
 
@@ -17,6 +14,7 @@ setInterval(main, 1000/SNAKE_SPEED)
 // update the snake
 const update = () => {
   console.log("updating")
+  updateSnake()
 }
 
 // draw the snake
